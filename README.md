@@ -27,33 +27,33 @@ User → FastAPI → Ollama → Mistral Model → Response → User
 
 ---
 ⚙️ Setup Instructions
-1️⃣ Install dependencies
+- 1️⃣ Install dependencies
 pip install -r requirements.txt
 
-2️⃣ Install and run Ollama
+- 2️⃣ Install and run Ollama
 
-Download from: https://ollama.com
+- Download from: https://ollama.com
 ---
 Run model:
 
-ollama run mistral
+- ollama run mistral
 ---
 ⚠️ Keep this terminal running
 
-3️⃣ Run API server
+- 3️⃣ Run API server
 uvicorn app:app --reload
-4️⃣ Access API Docs
+- 4️⃣ Access API Docs
 ---
 Open in browser:
 
-http://127.0.0.1:8000/docs
+- http://127.0.0.1:8000/docs
 ---
 🧪 API Usage
 Endpoint
 POST /generate
 
 Headers
-api_key: mysecret123
+- api_key: mysecret123
 ---
 
 Request Body
