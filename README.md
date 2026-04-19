@@ -70,9 +70,9 @@ Response
 
 ---
 🔐 Features
-API key authentication
-Input validation (basic)
-Error handling
-Local LLM inference
-Clean JSON response formatting
+- API key authentication
+- Input validation (basic)
+- Error handling
+- Local LLM inference
+- Clean JSON response formatting
 ---
