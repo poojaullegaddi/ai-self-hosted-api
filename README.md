@@ -26,6 +26,7 @@ User → FastAPI → Ollama → Mistral Model → Response → User
 - Uvicorn
 
 ---
+![img](screenshot/Screenshot_self_hosted_api.png)
 ⚙️ Setup Instructions
 - 1️⃣ Install dependencies
 pip install -r requirements.txt
